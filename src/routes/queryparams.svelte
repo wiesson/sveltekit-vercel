@@ -24,7 +24,7 @@
   export let s = "";
   export let w = writable("");
 
-  console.log($page)
+  console.log("onmount", $page.query.toString())
 
   onMount(async () => {
     console.log("---");
@@ -33,7 +33,8 @@
     console.log(s);
     console.log($w);
     console.log("---");
-    console.log($page)
+    console.log("onmount", $page.query.toString())
+    console.log("onmount q", $page.query.get("q"))
   });
 </script>
 
