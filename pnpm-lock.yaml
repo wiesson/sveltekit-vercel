@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/adapter-node': next
-  '@sveltejs/adapter-vercel': github:wiesson/adapter-vercel#main
+  '@sveltejs/adapter-vercel': next
   '@sveltejs/kit': next
   '@vercel/node': ^1.9.1
   svelte: ^3.37.0
@@ -16,7 +16,7 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.12
-  '@sveltejs/adapter-vercel': github.com/wiesson/adapter-vercel/40ef0e0fde36bd8362ccc869618e4c9179c31a59
+  '@sveltejs/adapter-vercel': 1.0.0-next.10
   '@sveltejs/kit': 1.0.0-next.71_svelte@3.37.0+vite@2.1.5
   svelte: 3.37.0
   svelte-preprocess: 4.7.0_svelte@3.37.0+typescript@4.2.4
@@ -38,6 +38,10 @@ packages:
 
   /@sveltejs/adapter-node/1.0.0-next.12:
     resolution: {integrity: sha512-DGP3dT5ijsTV0zmLDmZP8wI4RjZlifGGzA0y4HLoWNEKhZJLDjFDJnNcA+O5S9QBxQOVaYUlAY2z19r+skBVjA==}
+    dev: true
+
+  /@sveltejs/adapter-vercel/1.0.0-next.10:
+    resolution: {integrity: sha512-hEk1acpk02UsODC9NCF7VtooybXgLlnOX3JIWNkEtqihG6cfyMTOxAl+plT2APknB8i1cUt5FEe/O/r8LGql5Q==}
     dev: true
 
   /@sveltejs/kit/1.0.0-next.71_svelte@3.37.0+vite@2.1.5:
@@ -422,9 +426,3 @@ packages:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
     dev: false
-
-  github.com/wiesson/adapter-vercel/40ef0e0fde36bd8362ccc869618e4c9179c31a59:
-    resolution: {tarball: https://codeload.github.com/wiesson/adapter-vercel/tar.gz/40ef0e0fde36bd8362ccc869618e4c9179c31a59}
-    name: '@sveltejs/adapter-vercel'
-    version: 1.0.0-next.8
-    dev: true
